@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MobikiSDK",
-            url: "https://github.com/Mobiki/mobiki-map-sdk/releases/download/v1.0.4/MobikiSDK.xcframework.zip",
-            checksum: "b189bb58f57d9252c2f3afe6a33ed415951a20652441756a4b401a8acff82c2b"
+            url: "https://github.com/Mobiki/mobiki-map-sdk/releases/download/v1.0.5/MobikiSDK.xcframework.zip",
+            checksum: "40c6bedad2162a041bcf0fa679cbeb097d8f5120d50b691f5e56ad98336910c3"
         )
     ]
 )
