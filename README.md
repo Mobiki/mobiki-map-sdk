@@ -200,6 +200,28 @@ step.floor            // Int
 
 ---
 
+## Example app
+
+`Example/MobikiExample.xcodeproj` is a working host app that consumes
+the SDK via the binary target in this repository. It walks through the
+three common scenarios (just open, preselect room, from-to navigation)
+with an on-screen log so you can watch the delegate callbacks fire.
+
+```bash
+open Example/MobikiExample.xcodeproj
+```
+
+Set your API key in `Example/MobikiExample/AppDelegate.swift`:
+
+```swift
+Mobiki.configure(apiKey: "YOUR_API_KEY")
+```
+
+The hardcoded venue ID points at the public Mobiki demo venue (Perpa).
+Replace it with your own venue ID once you have your API key.
+
+---
+
 ## Errors
 
 | Error | Cause |
